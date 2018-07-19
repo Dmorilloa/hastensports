@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/item_list_padding_horizontal"
+    android:paddingRight="@dimen/item_list_padding_horizontal"
+    android:paddingTop="@dimen/item_list_padding_vertical"
+    android:paddingBottom="@dimen/item_list_padding_vertical"
+    android:background="@drawable/background_item_player">
+
+    <ImageView android:layout_width="@dimen/item_list_image_width"
+        android:layout_height="@dimen/item_list_image_height"
+        android:scaleType="centerCrop"
+        android:id="@+id/item_list_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/item_list_image"
+        android:layout_alignTop="@+id/item_list_image"
+        android:layout_alignBottom="@+id/item_list_image"
+        android:layout_marginLeft="@dimen/item_list_padding_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:gravity="bottom">
+
+        <TextView
+        android:layout_width="0px"
+            android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_list_name"
+        android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/item_list_text_size_main"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_list_date"
+            android:textColor="@color/text_color_item_list_date"
+            android:gravity="right"
+            android:textSize="@dimen/item_list_text_size_secondary"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:id="@+id/item_list_surname"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/item_list_text_size_main"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

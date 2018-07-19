@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hasten Sports</string>
+    <string name="loading_data">Cargando información...</string>
+    <string name="no_sports">No hay información</string>
+</resources>

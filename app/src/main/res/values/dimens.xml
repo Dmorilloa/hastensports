@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">15dp</dimen>
+    <dimen name="list_margin">15dp</dimen>
+    <dimen name="item_list_padding_vertical">15dp</dimen>
+    <dimen name="item_list_padding_horizontal">15dp</dimen>
+
+    <dimen name="item_list_image_width">125dp</dimen>
+    <dimen name="item_list_image_height">125dp</dimen>
+    <dimen name="item_list_text_size_main">18dp</dimen>
+    <dimen name="item_list_text_size_secondary">14dp</dimen>
+    <dimen name="background_item_player_stroke">2dp</dimen>
+    <dimen name="background_item_sport_stroke">2dp</dimen>
+    <dimen name="background_item_sport_padding_vertical">10dp</dimen>
+    <dimen name="item_sport_text_size">18dp</dimen>
+</resources>
